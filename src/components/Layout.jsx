@@ -3,7 +3,7 @@ import Navbar from "./Navbar";
 import Header from "./Header";
 import Main from "./Main";
 import Menu from "./Menu";
-import Sidebar from "./Sidebar";
+
 const layout = ({ children }) => {
   return (
     <div className="">

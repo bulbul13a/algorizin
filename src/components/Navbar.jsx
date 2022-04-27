@@ -1,5 +1,5 @@
 import React from 'react'
-
+import Search from './Search'
 function Navbar() {
   return (
     <div className='font-inter font-medium  flex justify-between items-center h-16 bg-[#ffffff] text-[#3E3F48] pl-[36px] pr-[10px] '>
@@ -7,6 +7,9 @@ function Navbar() {
       <div className="flex items-center">
         <p>Starbucks</p>
         <svg className='ml-[7px]' width="8" height="6" viewBox="0 0 8 6" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M3.595 5.438a.5.5 0 0 0 .81 0L7.758.793A.5.5 0 0 0 7.353 0H.647a.5.5 0 0 0-.405.793l3.353 4.645Z" fill="#3E3F48" /></svg>
+      </div>
+      <div className='hidden desktop:inline-block'>
+        <Search/>
       </div>
 
       <div className="flex justify-between items-center">
